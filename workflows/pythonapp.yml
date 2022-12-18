@@ -35,4 +35,4 @@ jobs:
         git config --local user.name "GitHub Action"
         git add docs/result.json -f
         git commit -m "Update docs/result.json" -a
-        git push "https://hszasz:${{ secrets.GITHUB_PERSONAL_TOKEN }}@github.com/hszasz/elpriser_laddning.git" HEAD:main --follow-tags
+        git push "https://hunorszasz:${{ secrets.GITHUB_PERSONAL_TOKEN }}@github.com/hunorszasz/Chargelimit.git" HEAD:main --follow-tags
