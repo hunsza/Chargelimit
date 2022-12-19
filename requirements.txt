@@ -1,2 +1,2 @@
 beautifulsoup4
-requests==4.11.1
+requests==2.23.0
