@@ -29,6 +29,7 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
+        git pull
         git add docs/result.json -f
         git commit -m "Update docs/result.json" -a
         git push "https://hunsza:${{ secrets.GITHUB_PERSONAL_TOKEN }}@github.com/hunsza/Chargelimit.git" HEAD:main --follow-tags
