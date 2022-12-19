@@ -43,4 +43,4 @@ if os.path.exists(file):
     os.remove(file)
 
 with open(file, 'a') as json_file:
-    json.dump(result, json_file)
+    json.dumps(result, json_file)
